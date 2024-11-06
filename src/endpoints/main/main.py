@@ -9,3 +9,7 @@ router = APIRouter(
 @router.get("/")
 async def root():
     return {"message": "Hello World"}
+
+@router.get("/hello")
+async def root():
+    return {"message": "Hello World"}
